@@ -2,38 +2,42 @@ body {
   margin: 0;
 
 
-/* NAV BANNER + CONTENT */
+/* NAV + BANNER CONTENT */
 
 }
 .banner {
-
-  background-repeat: no-repeat;
   background-position: 0px -220px;
-  max-width: 730px;
-
-  padding: 20.2em
+  max-width: 963px;
+  padding: 12.2em;
+  background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .banner-content {
-color: white;
+color: #ffffff;
 
 }
 
 .banner-content h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 42px;
   position: relative;
-  bottom: 5em;
-  right: 7.5em;
+  bottom: 1.4em;
+  right: 3em;
 }
 
 .banner-content p {
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 21px;
   position: relative;
-  bottom: 9em;
-  right: 13.3em;
+  bottom: 3em;
+  right: 6em;
 }
+
+/* NAV BAR */
 
 .navigation {
   font-family: 'Roboto', sans-serif;
@@ -42,25 +46,244 @@ color: white;
   display: flex;
   justify-content: space-between;
   position: relative;
-  bottom: 150px;
-  right: 160px;
+  bottom: 90px;
+  right: 87px;
 
 
  }
+
+/* BUTTON FREE TRIAL */
 
 .btn {
   -webkit-border-radius: 60;
   -moz-border-radius: 60;
   border-radius: 60px;
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 13px;
+  letter-spacing: 2px;
   padding: 24px;
   background: #81ff6e;
   text-decoration: none;
   position: relative;
-  bottom: 9em;
-  right: 17em;
+  bottom: 2em;
+  right: 10em;
+}
+
+.btn a {
+
 }
 
 /* END OF NAV BANNER + CONTENT */
+
+/* START FIRST SECTION "WHAT'S ON YOGA ?" */
+
+.purpose {
+  height: 37em;
+}
+
+.purpose h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 3em;
+
+}
+
+.purpose h2 {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Roboto', sans-serif;
+  font-weight:  300;
+  font-size: 26px;
+  margin-right: 11em;
+  margin-top: 1.5em;
+}
+
+.purpose h3 {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Roboto', sans-serif;
+  font-weight:  300;
+  font-size: 26px;
+  margin-right: 17.1em;
+}
+
+.purpose h4 {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Roboto', sans-serif;
+  font-weight:  300;
+  font-size: 26px;
+  margin-right: 15.5em;
+}
+
+.purpose p {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  margin-right: 3.7em;
+color: grey;
+}
+
+iframe {
+  padding-left: 45px;
+  position: relative;
+  bottom: 22.5em;
+}
+
+/* END FIRST SECTION BLOCK */
+
+/* START SECOND SECTION BLOCK */
+
+/* BANNER 2 */
+
+.banner-2 {
+  background-position: 0px -220px;
+  max-width: 963px;
+  height: 120px;
+  padding: 21.2em;
+  background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.banner-content-2 > h1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 7em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 41px;
+  font-weight: 300;
+  color: white;
+}
+
+.banner-content-2 > h2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 15em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+/*END OF BANNER 2 */
+
+/* PADDING CONTENT IN BANNER 2*/
+
+.first-padding {
+  display: inline-block;
+  position: relative;
+  bottom: 17em;
+  right: 7em;
+  padding: 2em;
+  width: 20em;
+  margin: 2em;
+  background-color: white;
+}
+
+.first-padding h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.first-padding h2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  color: green;
+}
+
+.first-padding p {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* SECOND PADDING IN BANNER CONTENT 2 */
+
+.second-padding {
+  display: inline-block;
+  position: relative;
+  bottom: 39.5em;
+  left: 19em;
+  padding: 0.4em;
+  width: 25em;
+  margin: 3em;
+  background-color: white;
+}
+
+.second-padding h1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 0em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: red;
+}
+
+.second-padding h2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 0.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.second-padding h3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 0.3em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  color: green;
+}
+
+.second-padding p {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 1.4em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+/* END SECOND PADDING IN BANNER CONTENT 2 */
+
+/* START BUTTON IN BANNER CONTENT 2 */
+
+.btn-banner-2 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  position: relative;
+  bottom: 20em;
+  right: 30em;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 25px;
+  background: #71fa71;
+  text-decoration: none;
+}

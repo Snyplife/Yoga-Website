@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+
+}
+.banner {
+
+  background-repeat: no-repeat;
+  background-image: linear-gradient(-250deg, rgba(233,180,249,1) 0%, rgba(196,148,255,0.59) 10%), url('images/yogaa2.jpg');
+  background-position: 0px -220px;
+  max-width: 681px;
+  padding: 22.2em
+}
+
+.banner-content {
+color: white;
+
+}
+
+.banner-content h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  position: relative;
+  bottom: 5em;
+  right: 7.5em;
+}
+
+.banner-content p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  position: relative;
+  bottom: 9em;
+  right: 13.3em;
+}
+
+.navigation {
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+  display: inline;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 150px;
+  right: 160px;
+
+
+ }
+
+.btn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: 'Open Sans', sans-serif
+  color: #ffffff;
+  font-size: 15px;
+  padding: 24px;
+  background: #81ff6e;
+  text-decoration: none;
+  position: relative;
+  bottom: 9em;
+  right: 17em;
+}

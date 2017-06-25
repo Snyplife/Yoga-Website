@@ -1,14 +1,17 @@
 body {
   margin: 0;
 
+
+/* NAV BANNER + CONTENT */
+
 }
 .banner {
 
   background-repeat: no-repeat;
-  background-image: linear-gradient(-250deg, rgba(233,180,249,1) 0%, rgba(196,148,255,0.59) 10%), url('images/yogaa2.jpg');
   background-position: 0px -220px;
-  max-width: 681px;
-  padding: 22.2em
+  max-width: 730px;
+
+  padding: 20.2em
 }
 
 .banner-content {
@@ -59,3 +62,5 @@ color: white;
   bottom: 9em;
   right: 17em;
 }
+
+/* END OF NAV BANNER + CONTENT */

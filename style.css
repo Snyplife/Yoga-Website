@@ -6,13 +6,11 @@ body {
 
 }
 .banner {
-  background-position: 0px -220px;
-  max-width: 963px;
+  background-position: 0px -200px;
+  max-width: 1000px;
   padding: 12.2em;
   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+
 }
 
 .banner-content {
@@ -24,9 +22,9 @@ color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 42px;
-  position: relative;
-  bottom: 1.4em;
-  right: 3em;
+  margin-top: 1em;
+  margin-left: -3.2em;
+  margin-bottom: 2em;
 }
 
 .banner-content p {
@@ -34,7 +32,7 @@ color: #ffffff;
   font-size: 21px;
   position: relative;
   bottom: 3em;
-  right: 6em;
+  right: 6.3em;
 }
 
 /* NAV BAR */
@@ -273,16 +271,14 @@ iframe {
 
 /* START BUTTON IN BANNER CONTENT 2 */
 
-.btn-banner-2 {
+.btn-banner {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
-  position: relative;
-  bottom: 20em;
-  right: 30em;
+margin-top: 30em;
   border-radius: 28px;
   font-family: Arial;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 10px;
   padding: 25px;
   background: #71fa71;
   text-decoration: none;

@@ -90,6 +90,12 @@ color: #ffffff;
 
 }
 
+hr {
+  width: 30em;
+  border-color: blue;
+}
+
+
 .purpose h2 {
   display: flex;
   justify-content: flex-end;
@@ -221,7 +227,7 @@ iframe {
   bottom: 39.5em;
   left: 19em;
   padding: 0.4em;
-  width: 25em;
+  width: 24em;
   margin: 3em;
   background-color: white;
 }
@@ -270,16 +276,68 @@ iframe {
 /* END SECOND PADDING IN BANNER CONTENT 2 */
 
 /* START BUTTON IN BANNER CONTENT 2 */
-
 .btn-banner {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
-margin-top: 30em;
   border-radius: 28px;
+  position: relative;
+  bottom: 37em;
+  right: 19em;
   font-family: Arial;
   color: #ffffff;
-  font-size: 10px;
-  padding: 25px;
-  background: #71fa71;
+  font-size: 14px;
+  background: #82ff69;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
+}
+
+
+
+
+/*         SECTION 3 BLOC IMG          */
+
+
+#section-3 h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+  margin-bottom: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #555555
+}
+
+
+.challenges-img {
+
+width: 30%;
+height: 26em;
+margin-left: 25px;
+margin-bottom: 10px;
+padding: 5px;
+}
+
+/*            END OF SECTION 3            */
+
+/*                      STARTING BANNER 3                    */
+
+.banner-3 {
+  background-position: 0px -220px;
+  margin-top: 5.3em;
+  width: 84.4em;
+  height: 40em;
+  background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.banner-3-content > h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight:  300;
+  font-style: italic;
+  display: flex;
+  justify-content: flex-end;
+
 }
